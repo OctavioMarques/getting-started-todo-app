@@ -9,9 +9,3 @@ module.exports = async (req, res) => {
         greeting: GREETINGS[ Math.floor( Math.random() * GREETINGS.length )],
     });
 };
-
-module.exports = async (req, res) => {
-    res.send({
-        greeting: GREETING,
-    });
-};
